@@ -6,6 +6,6 @@
     }
 }
 
-@mixin shadowY($x-axis, $y-axis, $blur, $opacity) {
+@mixin shadow($x-axis, $y-axis, $blur, $opacity) {
     box-shadow: $x-axis $y-axis $blur rgba($color-black, $opacity);
 }

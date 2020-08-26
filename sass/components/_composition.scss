@@ -4,7 +4,7 @@
     &__photo {
         width: 55%;
         position: absolute;
-        box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+        @include shadow(0, 1.5rem, 4rem, 0.4);
         border-radius: 2px;
         transition: all 0.2s ease;
         z-index: 10;
@@ -28,7 +28,7 @@
         &:hover {
             z-index: 20;
             transform: scale(1.2) translateY(-0.5rem);
-            box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+            @include shadow(0, 2.5rem, 4rem, 0.5);
             outline: 1.5rem solid $color-primary;
         }
     }
