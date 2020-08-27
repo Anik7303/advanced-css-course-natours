@@ -9,3 +9,10 @@
 @mixin shadow($x-axis, $y-axis, $blur, $opacity) {
     box-shadow: $x-axis $y-axis $blur rgba($color-black, $opacity);
 }
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
